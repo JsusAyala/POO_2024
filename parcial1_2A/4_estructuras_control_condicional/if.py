@@ -1,17 +1,17 @@
+"""
 
+existe una estructura de condicion lla mada "if"
+la cual evalua una condicion para encontrar el valoe "True" y si se cumple
+la condicion se ejecuta la linea o lineas de codigo
 
+tienes 4 variantes de if 
 
+1.-if  simple
+2.-if compuesto
+3.-if anidado
+4.-if y elif
 
-
-
-
-
-
-
-
-
-
-
+"""
 
 #Ejemplo 1 if simple
 
