@@ -18,7 +18,7 @@ tienes 4 variantes de if
 color=input("Ingresa un color")
 
 if color == "rojo":
-    print("Soymel color rojo")
+    print("Soy el color rojo")
 
 #Ejemplo 2 if compuesto
 
