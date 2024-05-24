@@ -5,3 +5,6 @@ continente="America del Norte"
 
 print(pais)
 print(continente)
+
+
+X=35
