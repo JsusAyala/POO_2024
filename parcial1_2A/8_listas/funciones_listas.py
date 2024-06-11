@@ -30,7 +30,8 @@ print(numeros)
 print(varios)
 varios.remove()
 print(varios)
-#
+
+print(varios)
 varios.reverse()
 print(varios)
 
@@ -38,15 +39,12 @@ print(varios)
 encontro="Brasil" in paises
 print(encontro)
 
-
-
 #Vaciar una lista
 print(paises)
 paises.clear()
 print(paises)
 
 #Unir listas
-
 print(varios)
 varios.extend(numeros)
 print(varios)

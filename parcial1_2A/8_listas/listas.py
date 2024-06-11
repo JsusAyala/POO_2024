@@ -51,12 +51,12 @@ while i<len(palabras):
 #ejemplo 2 crear una lista de palabras posteriormente ingresar una palabra para buscar la coincidencia en la lista e indicar 
 #si aparece la palabra y en que posicion en caso contrario indicar una sola vez si no la encontro
 
-"""
+
 #palabra_buscar = input ("ingresar la palabra a buscar: ")
 palabra = [ "hola", "2024" , "10.23","True"]
 palabra_buscar = input ("ingresar la palabra a buscar: ")
 #Recorrer la lista con un for 
-"""
+
 #Recorrer la lista con un 
 
 
