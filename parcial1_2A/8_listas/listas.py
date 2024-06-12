@@ -168,12 +168,16 @@ def actualizarPeliculas():
     else:
         print("La película no existe en la lista.")
     espereTecla()
+def vaciarPeliculas():
+    peliculas.clear()
+    print("Se han eliminado con exito las peliculas de todo el catalogo")
+
 
 peliculas=[]
 
 opcion=True
 while opcion:
-    print("\n\t..::: CINEPOLIS CLON :::... \n..::: Sistema de Gestion de Peliculas:::...\n 1.- Agregar \n 2.- Eliminar \n 3.- Remover \n 4.-Actualizar \n 5.- Consultar \n 6.- Salir ")
+    print("\n\t..::: CINEPOLIS CLON :::... \n..::: Sistema de Gestion de Peliculas:::...\n 1.- Agregar \n 2.- Eliminar \n 3.- Remover \n 4.-Actualizar \n 5.- Consultar \n 6.- Vaciar \n 7.- Salir ")
     opcion=input("\t Elige una opción: ").upper()
     
     if opcion=="1" or opcion=="AGREGAR":
@@ -186,8 +190,11 @@ while opcion:
         actualizarPeliculas()
     elif opcion=="5" or opcion=="CONSULTAR":
         consultarPeliculas()
-    elif opcion=="6" or opcion=="SALIR":
+    elif opcion=="6" or opcion=="VACIAR":
+        vaciarPeliculas()
+    elif opcion=="7" or opcion=="SALIR":
         opcion=False
+
     else:
         print("Opcion invalida \n Favor ingresar una opcion valida")
         espereTecla()
